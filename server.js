@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/artcle one', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile('article one served here');
 });
 
 app.get('/article two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+ res.sendFile('article two served here');
 });
 
 app.get('/article three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile('article three served here');
 });
 
 app.get('/ui/style.css', function (req, res) {
